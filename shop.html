@@ -2,38 +2,40 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog title</title>
-<style>
-    .col-2 {width: 16.66%;}
-    .col-8 {width: 66.66%;
-    margin:auto;}
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        background-color: wheat;
-        padding: 10px;
-        }
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  /* padding: 20px; */
-  /* font-size: 30px; */
-  text-align: center;
-  /* height: 50px; */
-}
-
-.grid-image{
-    height:200px;
-    width: 175px;
-}
-</style>
+<link rel="stylesheet" href="styles2.css">
+<link rel="stylesheet" href="shop_styles.css">
+<base target="_blank">
+<title>Home</title>
 </head>
 <body>
-    <div class="row">
-        <div class="col-2">
-
+    <div class="header"> 
+        <div class="col-3"> 
+          <img height="100px" width="125px" src="logo.png" href="#index.html">
         </div>
-        <div class="col-8">
+<div class="row">
+    <div class="col-7">
+      <div class="navbar">
+        
+        <a href="/project/firstWebsite/index.html">Home</a>
+        <a href="/project/firstWebsite/shop.html">Shop</a>
+        <a href="/project/firstWebsite/blogs/blog1_structure.html">Blog</a>
+        <a href="/project/firstWebsite/about.html">About</a>
+        <a href="/project/firstWebsite/register.html">Sign up</a>        
+      </div>      
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-2 menu">
+    <ul>
+        <li><a href="folksonomy.html">Folksonomy</a></li>
+        <li><a href="semantics.html">Semantics</a></li>
+        <li><a href="semantics.html">Technology</li></a>
+        <li><a href="folksonomy.html">Contribute</li></a>
+      </ul>
+  </div>
+  <div class="col-8">
+    <div class="page_content">
             <div class="grid-container">
                 <div class="grid-item">
                     <a href="https://www.amazon.in/Chemex-6-Cup-Classic-Glass-Coffee/dp/B0000YWF5E"> <img class="grid-image" src="pour over glass 2.jpg">
@@ -47,11 +49,85 @@
                 <div class="grid-item">item</div>
                 <div class="grid-item">item</div>
                 <div class="grid-item">item</div>
-              </div>
-        </div>
-        <div class="col-2">
-
-        </div>
+            </div>
     </div>
+    
+  </div>
+  <div class="col-2">
+    <p>Connect with us</p>
+    <div class="soc">
+      <a href="https://www.facebook.com/"><img src="facebook.svg"></a>
+      <a href="https://www.reddit.com/r/web3/ "><img src="reddit.svg"></a>
+      <a href="https://twitter.com/SemanticWeb30"><img src="twitter.svg"></a>  
+      <a href="https://www.youtube.com/"><img src="youtube.svg"></a>      
+    </div>
+    <article class="news-row">
+        <p class="recent-news-title">In recent news</h2>
+        <article class="news">
+          <a class= "news-link" href="https://www.livemint.com/opinion/columns/a-web-3-0-revolution-that-could-relieve-us-of-our-social-dilemmas-11600357670123.html">
+            <p class= "news-title">A Web 3.0 revolution that could relieve us of our social dilemmas</p>
+          <img src="https://images.livemint.com/img/2020/09/17/600x338/AFP_1Q93XW_1587878402246_1600357813402.jpg"></a>
+        </article>
+        <br>
+        <article class="news">
+        <a class= "news-link" href="https://www.forbes.com/sites/rogerhuang/2020/09/21/how-web-30-and-cryptocurrencies-transform-the-economy/#5ce87009459e">
+          <p class= "news-title">How Web 3.0 And Cryptocurrencies Transform The Economy</p>
+          <img src="https://specials-images.forbesimg.com/imageserve/5f67c4a99e75e6ce844d00c1/960x0.jpg"></a>
+        </article>
+        <br>
+        <article class="news">
+        <a class= "news-link" href="https://www.coindesk.com/web3-transform-the-web">
+          <p class= "news-title">How Web 3.0 Creates Value for Users, Not Platforms</p>
+          <img src="https://static.coindesk.com/wp-content/uploads/2020/09/MOSHED-2020-9-14-15-10-52-710x458.jpg"></a>
+        </article>
+      </article>
+  </div>  
+  </div>
+  <div class="row">
+    <div class="col-3">
+  </div>
+
+</div>
+<div class="footer">
+  <div class="row">
+    <div class="col-3">
+      <ul class="footer-wrapper-links-list">               
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <li>
+            <a href="shop.html">Shop</a>
+        </li>
+        <li>
+            <a href="Blog.html">Blog</a>
+        </li>
+        <li>
+            <a href="register.html">Register</a>
+        </li>
+    </ul>
+    </div>
+ 
+    <div class="col-7">
+      <div class="soc">
+        <a href="https://www.facebook.com/"><img src="facebook.svg"></a>
+        <a href="https://twitter.com/SemanticWeb30"><img src="twitter.svg"></a>  
+        <a href="https://www.youtube.com/"><img src="youtube.svg"></a>
+        <a href="https://www.reddit.com/r/web3/ "><img src="reddit.svg"></a>
+      </div>
+      <div class="footer-title">
+        <a href="#index.html"><h3>Future of Internet</h3></a>
+      </div>
+      <div class="footer-tag">
+        <p>Created by <a href="https://github.com/prathamesh799">Prathamesh</p></a>
+      </div>
+     
+    </div>    
+    </div>
+</div>
+
+</div>
 </body>
 </html>
