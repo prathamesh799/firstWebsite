@@ -248,3 +248,20 @@
   .recent-news-title, .news-title{
       font-size: small;
   }
+
+  .page_content p{
+      text-align: justify;
+    }
+
+    .page_content img{
+        float: left;
+        padding: 10px;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .page_content .video{
+        float: center;
+        max-width: 100%;
+
+    }
