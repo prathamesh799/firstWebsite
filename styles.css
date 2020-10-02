@@ -80,19 +80,22 @@
       }
   
       .page_content, .comment_box{
+        width: 100%;
         padding: 30px;
         margin: auto;
-        margin-top: 50px;
         border: 2px solid black;
       }
       
         .col-7 .soc{
             padding: 1px;
-  margin-top: 1px;
+            margin-top: 1px;
+            text-align: center;
+            border: none;
+        }
 
-          text-align: center;
-
-  border: none;
+        .soc img{
+            height:35px; 
+            width:35px;
         }
 
       ul{
@@ -103,24 +106,19 @@
         text-decoration: none;
         padding: 6px;
       }
-  
-      #comment_box {
-   background-image: url("coffeebeans.jpg");opacity: 0.9;
-   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-weight: bolder;
-   color:white;
-   border-left: wheat;
-   font-size: large;
-   width: 100%;
-  }
 
-  #comment_box #comment_area{
+      .submit-button{
+          min-width: 4;
+          max-width: 100%;
+          margin: auto;
+        }
+  #comment_area{
       width:100%;
       resize: inherit;
       min-width: 10;
   }
 
-  #comment_box #commentor_name{
+  #commentor_name{
       min-width: 5;
       resize: inherit;
       max-width: 100%;
