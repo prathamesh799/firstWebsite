@@ -31,11 +31,7 @@
   .col-4 {width: 33.33%;}
   .col-5 {width: 41.66%;}
   .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;
-  padding: 30px;
-  margin: auto;
-  margin-top: 50px;
-  border: 2px solid black}
+  .col-7 {width: 58.33%;}
   .col-8 {width: 66.66%;}
   .col-9 {width: 75%;}
   .col-10 {width: 83.33%;}
@@ -83,26 +79,20 @@
         float: right;
       }
   
-      .social-icon{
-        /* text-align: right; */
-        /* font-size: medium; */
-        /* padding: 10px; */
-        /* float: right; */
+      .page_content, .comment_box{
+        padding: 30px;
+        margin: auto;
+        margin-top: 50px;
+        border: 2px solid black;
       }
+      
         .col-7 .soc{
-            margin: auto;
-          /* width: 20% */
-          padding: 6px;
-          /* align-items: center; */
-          float:center;
-          /* padding:auto; */
+            padding: 1px;
+  margin-top: 1px;
+
           text-align: center;
-          /* border: none; */
-          padding: 0%;
-          /* padding: 30px; */
-  /* margin: auto; */
-  /* margin-top: 50px; */
-  border: 0px;
+
+  border: none;
         }
 
       ul{
