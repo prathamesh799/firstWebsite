@@ -7,6 +7,14 @@
 * {
     box-sizing: border-box;
   }
+
+  html{
+      background: blanchedalmond;
+  }
+
+  /* body{
+      background: burlywood;
+  } */
   
   .footer {
      width: 100%;
@@ -43,7 +51,7 @@
   }
   
   .header {
-    background-color: #9933cc;
+    /* background-color: #9933cc; */
     color: #ffffff;
     
   }
@@ -65,18 +73,25 @@
   .menu li:hover {
     background-color: #0099cc;
   }
+
+  .navbar a:hover{
+      font-size: large;
+  }
   
   .footer-wrapper-links-list{
     font-size: medium;
     line-height: 1.2;
     text-decoration: none;
   }
-  
-      .navbar{
+
+      .col-9 .navbar{
         text-align: right;
         font-size: medium;
-        padding: 10px;
+        /* padding: 10px; */
         float: right;
+        padding-bottom: 10px;
+        position: relative;
+        bottom: 1px;
       }
   
       .page_content, .comment_box{
@@ -86,6 +101,9 @@
         border: 2px solid black;
       }
       
+        .col-2 .soc a{
+            margin: 1px;
+        }
         .col-7 .soc{
             padding: 1px;
             margin-top: 1px;
@@ -93,9 +111,17 @@
             border: none;
         }
 
+        .soc .footer{
+            margin-bottom: 2px;
+        }
         .soc img{
-            height:35px; 
-            width:35px;
+            height:40px; 
+            width:40px;
+        }
+
+        .soc img:hover{
+            height:45px;
+            width:45px;
         }
 
       ul{
@@ -106,6 +132,29 @@
         text-decoration: none;
         padding: 6px;
       }
+
+      a:link {
+        color: green;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: green;
+      }
+      
+      /* mouse over link */
+      .navbar a:hover, .footer-wrapper-links-list a:hover {
+        font-size: 120%;
+        color: red;
+        background-color: chartreuse;
+      }
+
+      
+      
+      /* selected link */
+      /* a:active {
+        color: yellow;
+      } */
 
       .submit-button{
           min-width: 4;
@@ -122,4 +171,48 @@
       min-width: 5;
       resize: inherit;
       max-width: 100%;
+  }
+
+  .footer-title{
+      text-align:center;
+      padding: none;
+  }
+  .footer-title h3{
+      margin: 0px;
+  }
+
+  .col-12 .footer-strip{
+      margin-bottom: 1px;
+      margin: 0px;
+      bottom: 0;
+      left: 0;
+      margin: 5px;
+  }
+
+  footer p{
+      margin:1px;
+      padding:1px;
+      text-align:center;
+      width:100%;
+      min-width: 10;
+  }
+
+  .logo{
+      position: absolute;
+      line-height: 1;
+      float: left;      
+  }
+
+  .lauda{
+      background: lightcoral;
+
+  }
+  .lauda p{
+      margin:0px;
+      text-align: center;
+  }
+
+  .footer.row{
+      padding-bottom: 1px;
+      margin-bottom: 5px;
   }
