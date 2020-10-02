@@ -55,7 +55,7 @@
   }
   
   .menu li {
-    padding: 8px;
+    padding: 6px;
     word-wrap: break-word;
     margin-bottom: 7px;
     background-color: #015249;
@@ -289,3 +289,8 @@
     input{
         margin: 10px;
     }
+    iframe{
+        margin:auto;
+    }
+
+  
