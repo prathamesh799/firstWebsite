@@ -88,8 +88,8 @@
         text-align: right;
         font-size: medium;
         /* padding: 10px; */
-        float: right;
-        padding-bottom: 10px;
+        float: left;
+        padding-bottom: 1px;
         position: relative;
         bottom: 1px;
       }
@@ -105,15 +105,16 @@
             margin: 1px;
         }
         .col-7 .soc{
-            padding: 1px;
-            margin-top: 1px;
+            /* padding: 6px; */
+            /* padding-bottom: 7px; */
+            /* margin: 5px; */
             text-align: center;
             border: none;
         }
 
-        .soc .footer{
-            margin-bottom: 2px;
-        }
+        /* .soc .footer{
+            margin-bottom: 7px;
+        } */
         .soc img{
             height:40px; 
             width:40px;
@@ -203,11 +204,11 @@
       float: left;      
   }
 
-  .lauda{
+  .footer-tag{
       background: lightcoral;
 
   }
-  .lauda p{
+  .footer-tag p{
       margin:0px;
       text-align: center;
   }
@@ -215,4 +216,35 @@
   .footer.row{
       padding-bottom: 1px;
       margin-bottom: 5px;
+  }
+
+  .news-row {
+    margin: auto;
+    padding: 5px;
+    background-color: lightgray;
+    width: 100%;
+  }
+  
+  .news-row > h2, .browser {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .news {
+    background: white;
+  }
+  
+  .news > h3, p {
+    margin: auto;
+    font-size: 90%;
+  }
+  
+  .news img{
+      height: auto;
+      width: 100%;
+      /* min-width: 150px; */
+  }
+
+  .recent-news-title, .news-title{
+      font-size: small;
   }
