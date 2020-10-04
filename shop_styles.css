@@ -1,6 +1,13 @@
-td,tr, a{
+.res_imgs{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #015249;
     text-align: center;
 }
 
+.res_imgs{
+    color:#015249;
+}
+
+.res_imgs {
+    color: #015249;
+  }
